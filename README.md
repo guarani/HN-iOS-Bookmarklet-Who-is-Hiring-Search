@@ -3,7 +3,8 @@ Overview
 
 This Safari bookmarklet lets you search the Hacker News Who is Hiring thread using multiple search criteria.
 
-![alt text](https://github.com/guarani/HN-iOS-Bookmarklet-Who-is-Hiring-Search/blob/master/search1.png "Search box")
+<img src="https://raw.githubusercontent.com/guarani/HN-iOS-Bookmarklet-Who-is-Hiring-Search/master/search1.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://raw.githubusercontent.com/guarani/HN-iOS-Bookmarklet-Who-is-Hiring-Search/master/search2.png" alt="Drawing" style="width: 200px;"/>
 
 
  
