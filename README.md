@@ -29,6 +29,20 @@ Instalation
 7. To go to the next search result, tap the current highlighted result. To start a new search, reload the page and repeat from Step 5.
 
 
+Contribute
+----------
+
+1. Clone the repo:
+   `git clone https://github.com/guarani/HN-iOS-Bookmarklet-Who-is-Hiring-Search hn-bookmarklet`
+2. Go to the repo:
+   `cd hn-bookmarklet`
+3. Make changes to `hn.js`
+4. The contents of `hn.js` must be first prepended with `javascript:` before being copied to an iOS bookmark
+5. Alternatively, if you have [UglifyJS](https://github.com/mishoo/UglifyJS) installed, run the following command to take `hn.js`, minify it, and prepend the `javascript:` string, and place the result in `hn.min.js`:
+
+   `var=$(uglifyjs hn.js); echo "javascript:"${var/void\ /void } > hn.min.js`
+6. **Pull requests welcome!**
+
 
 
 
