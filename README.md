@@ -16,7 +16,9 @@ Instalation
 
 3. Now tap the <img src="https://raw.githubusercontent.com/guarani/HN-iOS-Bookmarklet-Who-is-Hiring-Search/master/bookmark.png" alt="Bookmark" width="20px;"/> icon (find the bookmark, hit *Edit* > *click the bookmark*, in the Address field, delete the contents and paste in the following:
 
-   <embed src="hn.min.js">
+   ```javascript
+   javascript:void function(){var e=prompt("Enter keywords:").split(" "),t=document.getElementsByClassName("athing"),n=[];for(var r=0;r<t.length;r++){var i=0;for(var s=0;s<e.length;s++)t[r].innerText.toLowerCase().indexOf(e[s].toLowerCase())>-1&&i++;i==e.length&&n.push(t[r])}var o=function(e){e.onclick=function(){var t=n.indexOf(e),r=t+1,i=n[r];i.scrollIntoView()}};for(var r=0;r<n.length;r++)n[r].style.backgroundColor="orange",o(n[r]);n[0].scrollIntoView()}();
+   ```
 
 4. Tap *Done* 3 times to save and exit.
 
